@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const api = axios.create({
-  baseURL: ((import.meta as any).env?.VITE_API_URL || 'https://ema-trader-backend.onrender.com') + '/api',
+  baseURL: ((import.meta as any).env?.VITE_API_URL || 'https://ematrader.onrender.com') + '/api',
   timeout: 10000,
 })
 
